@@ -1,0 +1,955 @@
+[
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "Delete",
+    "RelativePath": "api/v{version}/Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "CreatePorForm",
+    "RelativePath": "api/v{version}/Categoria/CreatePorForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "DeleteLogico",
+    "RelativePath": "api/v{version}/Categoria/DeleteLogico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "ExistsCreate",
+    "RelativePath": "api/v{version}/Categoria/ExistsCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "ExistsUpdate",
+    "RelativePath": "api/v{version}/Categoria/ExistsUpdate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetCategoriaPorId",
+    "RelativePath": "api/v{version}/Categoria/GetCategoriaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCategoriaPorId"
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetListaCategoriaComboReload",
+    "RelativePath": "api/v{version}/Categoria/GetListaCategoriaComboReload",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaComboDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetListaCategoriaFiltro",
+    "RelativePath": "api/v{version}/Categoria/GetListaCategoriaFiltro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroFecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroParametro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetListaCategoriaFiltroPaginado",
+    "RelativePath": "api/v{version}/Categoria/GetListaCategoriaFiltroPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroFecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroParametro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetListaCategoriaPaginado",
+    "RelativePath": "api/v{version}/Categoria/GetListaCategoriaPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "GetTodo",
+    "RelativePath": "api/v{version}/Categoria/GetTodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Categorias.DTOs.CategoriaListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.CategoriasController",
+    "Method": "UpdatePorForm",
+    "RelativePath": "api/v{version}/Categoria/UpdatePorForm/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "Delete",
+    "RelativePath": "api/v{version}/Producto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "CreatePorForm",
+    "RelativePath": "api/v{version}/Producto/CreatePorForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductoNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoSKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_IDCategoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria.CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoPrecio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoStock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoDescripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "DeleteLogico",
+    "RelativePath": "api/v{version}/Producto/DeleteLogico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "ExistsCreate",
+    "RelativePath": "api/v{version}/Producto/ExistsCreate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductoNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoSKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_IDCategoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria.CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoPrecio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoStock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoDescripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "ExistsUpdate",
+    "RelativePath": "api/v{version}/Producto/ExistsUpdate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductoNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoSKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_IDCategoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria.CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoPrecio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoStock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoDescripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetListaProductoComboReload",
+    "RelativePath": "api/v{version}/Producto/GetListaProductoComboReload",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoComboDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetListaProductoFiltro",
+    "RelativePath": "api/v{version}/Producto/GetListaProductoFiltro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroFecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroParametro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetListaProductoFiltroPaginado",
+    "RelativePath": "api/v{version}/Producto/GetListaProductoFiltroPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Paginacion.CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroFecha",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FiltroFechaParametroParametro",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetListaProductoPaginado",
+    "RelativePath": "api/v{version}/Producto/GetListaProductoPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadRegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetProductoPorId",
+    "RelativePath": "api/v{version}/Producto/GetProductoPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetProductoPorId"
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "GetTodo",
+    "RelativePath": "api/v{version}/Producto/GetTodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[TecPay.Catalog.Application.Entities.Productos.DTOs.ProductoListaDTO, TecPay.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.ProductosController",
+    "Method": "UpdatePorForm",
+    "RelativePath": "api/v{version}/Producto/UpdatePorForm/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductoNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoSKU",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FK_IDCategoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria.CategoriaNombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoPrecio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoStock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductoDescripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/v{version}/Usuarios/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TecPay.Catalog.API.Controllers.UsuariosController\u002BLoginRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TecPay.Catalog.Application.Common.RespuestaAutenticacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TecPay.Catalog.API.Controllers.UsuariosController",
+    "Method": "RenewToken",
+    "RelativePath": "api/v{version}/Usuarios/RenewToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TecPay.Catalog.Application.Common.RespuestaAutenticacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

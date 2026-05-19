@@ -1,0 +1,11 @@
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\bin\Debug\net9.0\TecPay.Catalog.Domain.deps.json
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\bin\Debug\net9.0\TecPay.Catalog.Domain.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\bin\Debug\net9.0\TecPay.Catalog.Domain.pdb
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.AssemblyInfoInputs.cache
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.AssemblyInfo.cs
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.csproj.CoreCompileInputs.cache
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\refint\TecPay.Catalog.Domain.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\TecPay.Catalog.Domain.pdb
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Domain\obj\Debug\net9.0\ref\TecPay.Catalog.Domain.dll
