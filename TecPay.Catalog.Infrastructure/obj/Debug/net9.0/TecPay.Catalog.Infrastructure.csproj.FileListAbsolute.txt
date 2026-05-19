@@ -17,3 +17,4 @@ D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Infrastructure\obj\Debug\net9.0\refi
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Infrastructure\obj\Debug\net9.0\TecPay.Catalog.Infrastructure.pdb
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Infrastructure\obj\Debug\net9.0\TecPay.Catalog.Infrastructure.genruntimeconfig.cache
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Infrastructure\obj\Debug\net9.0\ref\TecPay.Catalog.Infrastructure.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Infrastructure\obj\Debug\net9.0\TecPay.Catalog.Infrastructure.sourcelink.json

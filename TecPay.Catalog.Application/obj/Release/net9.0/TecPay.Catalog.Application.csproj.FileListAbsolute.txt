@@ -1,0 +1,16 @@
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\bin\Release\net9.0\TecPay.Catalog.Application.deps.json
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\bin\Release\net9.0\TecPay.Catalog.Application.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\bin\Release\net9.0\TecPay.Catalog.Application.pdb
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\bin\Release\net9.0\TecPay.Catalog.Domain.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\bin\Release\net9.0\TecPay.Catalog.Domain.pdb
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.csproj.AssemblyReference.cache
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.AssemblyInfoInputs.cache
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.AssemblyInfo.cs
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.csproj.CoreCompileInputs.cache
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.sourcelink.json
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.C.86E3E32C.Up2Date
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\refint\TecPay.Catalog.Application.dll
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\TecPay.Catalog.Application.pdb
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.Application\obj\Release\net9.0\ref\TecPay.Catalog.Application.dll

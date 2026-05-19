@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TecPay.Catalog.Domain/1.0.0": {
+        "runtime": {
+          "TecPay.Catalog.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TecPay.Catalog.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

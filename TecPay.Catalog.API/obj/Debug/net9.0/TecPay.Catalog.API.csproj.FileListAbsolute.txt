@@ -211,3 +211,4 @@ D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.API\obj\Debug\net9.0\TecPay.Catalog.
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.API\obj\Debug\net9.0\TecPay.Catalog.API.genruntimeconfig.cache
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.API\obj\Debug\net9.0\ref\TecPay.Catalog.API.dll
 D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\CURSOS WEB\SolucionTecPay\TecPay.Catalog.API\obj\Debug\net9.0\TecPay.Catalog.API.sourcelink.json
