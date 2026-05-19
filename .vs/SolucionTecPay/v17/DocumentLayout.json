@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\CURSOS WEB\\SolucionTecPay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|solutionrelative:tecpay.catalog.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.infrastructure\\persistence\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|solutionrelative:tecpay.catalog.infrastructure\\persistence\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|solutionrelative:tecpay.catalog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.application\\entities\\categorias\\queries\\getcategoriapaginadoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|solutionrelative:tecpay.catalog.application\\entities\\categorias\\queries\\getcategoriapaginadoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|solutionrelative:tecpay.catalog.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.infrastructure\\persistence\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|solutionrelative:tecpay.catalog.infrastructure\\persistence\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86761A4F-2D90-497F-A6CA-8497E2EDE18F}|TecPay.Catalog.Infrastructure\\TecPay.Catalog.Infrastructure.csproj|solutionrelative:tecpay.catalog.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62DD8B12-50AF-4BF9-89EC-5ACF4D45F3D8}|TecPay.Catalog.API\\TecPay.Catalog.API.csproj|solutionrelative:tecpay.catalog.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.application\\entities\\productos\\queries\\getproductopaginadoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|solutionrelative:tecpay.catalog.application\\entities\\productos\\queries\\getproductopaginadoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.application\\entities\\categorias\\commands\\deletecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|solutionrelative:tecpay.catalog.application\\entities\\categorias\\commands\\deletecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.application\\entities\\categorias\\commands\\updatecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|solutionrelative:tecpay.catalog.application\\entities\\categorias\\commands\\updatecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|d:\\cursos web\\soluciontecpay\\tecpay.catalog.application\\entities\\categorias\\queries\\existsupdatecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D24F82-54FE-4F17-9C11-CDAF8B21BCAF}|TecPay.Catalog.Application\\TecPay.Catalog.Application.csproj|solutionrelative:tecpay.catalog.application\\entities\\categorias\\queries\\existsupdatecategoriacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\Program.cs",
-              "RelativeDocumentMoniker": "TecPay.Catalog.API\\Program.cs",
-              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\Program.cs",
-              "RelativeToolTip": "TecPay.Catalog.API\\Program.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwIYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GetProductoPaginadoQuery.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Productos\\Queries\\GetProductoPaginadoQuery.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Application\\Entities\\Productos\\Queries\\GetProductoPaginadoQuery.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Productos\\Queries\\GetProductoPaginadoQuery.cs",
+              "RelativeToolTip": "TecPay.Catalog.Application\\Entities\\Productos\\Queries\\GetProductoPaginadoQuery.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T20:12:55.068Z",
+              "WhenOpened": "2026-05-19T23:01:30.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetCategoriaPaginadoQuery.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\GetCategoriaPaginadoQuery.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\GetCategoriaPaginadoQuery.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\GetCategoriaPaginadoQuery.cs",
+              "RelativeToolTip": "TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\GetCategoriaPaginadoQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:43:29.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\appsettings.json",
-              "RelativeDocumentMoniker": "TecPay.Catalog.API\\appsettings.json",
-              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\appsettings.json",
-              "RelativeToolTip": "TecPay.Catalog.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-19T20:10:18.765Z",
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:40:39.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TecPay.Catalog.API\\appsettings.Development.json",
-              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\appsettings.Development.json",
-              "RelativeToolTip": "TecPay.Catalog.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-19T20:09:48.301Z",
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "TecPay.Catalog.Infrastructure\\Persistence\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvzAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:38:54.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateCategoriaCommand.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\UpdateCategoriaCommand.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\UpdateCategoriaCommand.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\UpdateCategoriaCommand.cs",
+              "RelativeToolTip": "TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\UpdateCategoriaCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAArwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:32:39.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteCategoriaCommand.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\DeleteCategoriaCommand.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\DeleteCategoriaCommand.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\DeleteCategoriaCommand.cs",
+              "RelativeToolTip": "TecPay.Catalog.Application\\Entities\\Categorias\\Commands\\DeleteCategoriaCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:32:39.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExistsUpdateCategoriaCommand.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\ExistsUpdateCategoriaCommand.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\ExistsUpdateCategoriaCommand.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\ExistsUpdateCategoriaCommand.cs",
+              "RelativeToolTip": "TecPay.Catalog.Application\\Entities\\Categorias\\Queries\\ExistsUpdateCategoriaCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T22:32:39.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "TecPay.Catalog.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "TecPay.Catalog.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAACIAAABDAAAAAAAAAA==",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "TecPay.Catalog.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "D:\\CURSOS WEB\\SolucionTecPay\\TecPay.Catalog.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "TecPay.Catalog.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:39:52.88Z",
+              "WhenOpened": "2026-05-19T22:16:11.93Z",
               "EditorCaption": ""
             }
           ]

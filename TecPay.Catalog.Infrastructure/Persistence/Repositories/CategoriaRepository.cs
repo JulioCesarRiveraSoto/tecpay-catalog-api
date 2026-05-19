@@ -25,7 +25,7 @@ namespace TecPay.Catalog.Infrastructure.Persistence.Repositories
 
             queryable = queryable.Where(x => x.FechaBajaUtc == null);
             if (!string.IsNullOrWhiteSpace(categoriaNombre))
-                queryable = queryable.Where(x => x.CategoriaNombre.Contains(categoriaNombre));
+                queryable = queryable.Where(x => x.CategoriaNombre.ToUpper().Contains(categoriaNombre.ToUpper()));
 
             return await queryable.ToListAsync();
         }
@@ -36,7 +36,7 @@ namespace TecPay.Catalog.Infrastructure.Persistence.Repositories
             
             queryable = queryable.Where(x => x.FechaBajaUtc == null);
             if (!string.IsNullOrWhiteSpace(categoriaNombre))
-                queryable = queryable.Where(x => x.CategoriaNombre.Contains(categoriaNombre));
+                queryable = queryable.Where(x => x.CategoriaNombre.ToUpper().Contains(categoriaNombre.ToUpper()));
 
             var total = await queryable.CountAsync(cancellationToken);
 

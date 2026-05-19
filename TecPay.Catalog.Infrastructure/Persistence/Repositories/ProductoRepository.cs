@@ -27,10 +27,10 @@ namespace TecPay.Catalog.Infrastructure.Persistence.Repositories
 
             queryable = queryable.Where(x => x.FechaBajaUtc == null);
             if (!string.IsNullOrWhiteSpace(buscar))
-                queryable = queryable.Where(x => x.ProductoNombre.Contains(buscar) || x.ProductoSKU.Contains(buscar));
+                queryable = queryable.Where(x => x.ProductoNombre.ToUpper().Contains(buscar.ToUpper()) || x.ProductoSKU.ToUpper().Contains(buscar.ToUpper()));
 
             if (!string.IsNullOrWhiteSpace(categoriaNombre))
-                queryable = queryable.Where(x => x.Categoria.CategoriaNombre == categoriaNombre);
+                queryable = queryable.Where(x => x.Categoria.CategoriaNombre.ToUpper().Contains(categoriaNombre.ToUpper()));
 
             return await queryable.ToListAsync();
         }
@@ -44,10 +44,12 @@ namespace TecPay.Catalog.Infrastructure.Persistence.Repositories
 
             queryable = queryable.Where(x => x.FechaBajaUtc == null);
             if (!string.IsNullOrWhiteSpace(buscar))
-                queryable = queryable.Where(x => x.ProductoNombre.Contains(buscar) || x.ProductoSKU.Contains(buscar));
+                queryable = queryable.Where(x => x.ProductoNombre.ToUpper().Contains(buscar.ToUpper()) 
+                || x.ProductoSKU.ToUpper().Contains(buscar.ToUpper())
+                || x.Categoria.CategoriaNombre.ToUpper().Contains(categoriaNombre.ToUpper()));
 
-            if (!string.IsNullOrWhiteSpace(categoriaNombre))
-                queryable = queryable.Where(x => x.Categoria.CategoriaNombre == categoriaNombre);
+            //if (!string.IsNullOrWhiteSpace(categoriaNombre))
+            //    queryable = queryable.Where(x => x.Categoria.CategoriaNombre.ToUpper().Contains(categoriaNombre.ToUpper()));
 
             var total = await queryable.CountAsync(cancellationToken);
 
